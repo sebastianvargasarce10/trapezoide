@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+  float base_menor, base_mayor, altura, area;
+
+  printf("Ingrese la medida de la base menor: ");
+  scanf("%f", &base_menor);
+
+  printf("Igrese la medida de la base mayor: ");
+  scanf("%f", &base_mayor);
+
+  printf("Ingrese la medida de la altura: ");
+  scanf("%f", &altura);
+
+  
+  area = ((base_menor + base_mayor) * altura) / 2;
+
+  printf("El área del trapecio es: %.2f\n", area);
+
+  return 0;
+}
